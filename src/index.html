@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>httparadise.cloud</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora&display=swap" rel="stylesheet" />
+
+    <!-- OG TAGS -->
+    <meta property="og:site_name" content="Hyper-Text Transfer to Paradise">
+    <meta property="og:title" content="Hyper-Text Transfer to Paradise" />
+    <meta property="og:description" content="Send a message to your loved ones ❤️" />
+    <meta property="og:image" itemprop="image" content="https://www.httparadise.cloud/src/logo/512.png">
+    <meta property="og:type" content="website" />
+
+    <link rel="stylesheet" href="/lib/bs/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg border-bottom">
+        <div class="container">
+            <a class="navbar-brand" href="/"><img src="/src/logo/24.png" />&nbsp;<span>httparadise</span></a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ps-5 ps-lg-0">
+                        <a href="/" class="nav-link">Leave a message</a>
+                    </li>
+                    <li class="nav-item ps-5 ps-lg-0">
+                        <a href="/whodev.html" class="nav-link">Who developed this</a>
+                    </li>
+                    <li class="nav-item ps-5 ps-lg-0">
+                        <a href="/contribute.html" class="nav-link">Contribute</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container px-4 px-sm-3">
+        <form class="pt-4" autocomplete="off">
+            <div class="form-group py-2">
+                <label for="recipient">Who is your message for? <span class="text-black-50">(not required)</span></label>
+                <input type="text" class="form-control font-family-hw py-0 px-4" id="recipient" style="font-size: 2rem;" placeholder="to ...">
+            </div>
+            <div class="form-group py-2">
+                <label for="sender">What is your name? <span class="text-black-50">(not required)</span></label>
+                <input type="text" class="form-control font-family-hw py-0 px-4" id="sender" style="font-size: 2rem;" placeholder="from ...">
+            </div>
+            <div class="form-group mt-4 py-2">
+                <label for="msg">Type your message ...</label>
+                <textarea class="form-control" id="msg" placeholder="... here" style="min-height: 200px" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-light border">
+                <img src="/src/logo/24.png" /><span class="ms-2">Send your message</span>
+            </button>
+        </form>
+    </div>
+    <script src="/lib/jquery/jquery-3.6.1.min.js"></script>
+    <script src="/lib/bs/js/bootstrap.min.js"></script>
+</body>
+</html>
