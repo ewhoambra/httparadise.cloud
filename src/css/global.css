@@ -1,0 +1,21 @@
+div.divisor {
+    margin: 30px 0px;
+    border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+    position: relative;
+}
+
+div.divisor::before {
+    content: '';
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    background-color: #fff;
+    background-image: url(/src/logo/24.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+}
